@@ -1,6 +1,7 @@
 body{
  
     font-family: "Genos", sans-serif;
+    
 }
 #cover{
     background-image:url(imgvideo/cover.png);
@@ -16,6 +17,7 @@ section{
     margin: 50px;
     border: solid black 1px;
     padding: 20px;
+    background-color: rgb(190, 202, 202);
 }
 ul{
     display: flex;
@@ -74,22 +76,52 @@ div{
     }
     h2{
         font-family: "Zen Dots", serif;
+        display: flex;
+        justify-content: center;
     }
 .diplomes{
-    border: 1px solid red;
+    border: 1px solid rgb(0, 0, 0);
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
 
 }
 .parent{
     display: flex;
     flex-direction: row;
-    border: 1px solid blue;
+    border: 1px solid rgb(0, 0, 0);
+    justify-content: space-around;
 }
 .column{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    border: 1px solid green;
-}
+    border: 1px solid rgb(0, 0, 0);
+    background-image: url(Valider.vert.bmp);
+    }
+    p{
+        font-size: 160%;
+    }
+    nav{
+        background-color: rgb(190, 202, 202);
+    }
+    .footer{
+        display: flex;
+        justify-content: space-around;
+        margin: none;
+        border: none;
+        padding: none;
+        background-color: white;
+        padding: 120px;
+    }
+    footer img{
+    display: flex;
+    align-items: end;
+        width: 125px; 
+        height: 125px; 
+        border-radius: 100%;
+    }
+    
+
+
